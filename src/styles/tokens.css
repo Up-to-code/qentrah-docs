@@ -1,0 +1,38 @@
+/* Brand controls. Change these semantic tokens to adapt the composition. */
+@font-face { font-family: Geist; src: url('/brand/geist.woff2') format('woff2'); font-weight: 100 900; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Geist Mono'; src: url('/brand/geist-mono.woff2') format('woff2'); font-weight: 100 900; font-style: normal; font-display: swap; }
+:root {
+  --font-sans: Geist, Arial, sans-serif;
+  --font-mono: 'Geist Mono', monospace;
+  --accent: #3378ff;
+  --accent-bright: #6ca0ff;
+  --accent-soft: #16305a;
+  --canvas: #101114;
+  --panel: #14161b;
+  --panel-raised: #191c23;
+  --code-bg: #0c0e13;
+  --text: #f5f5f7;
+  --muted: #a4a7b0;
+  --subtle: #7f8593;
+  --line: #2a2d35;
+  --button-text: #fff;
+  --blue-wash: #0d1c34;
+  --shadow: 0 16px 50px #0003;
+  color-scheme: dark;
+}
+:root[data-theme='light'] {
+  --accent: #1251d5;
+  --accent-bright: #1454dc;
+  --accent-soft: #d9e6ff;
+  --canvas: #fafbfc;
+  --panel: #fff;
+  --panel-raised: #f1f4f9;
+  --code-bg: #f2f5fa;
+  --text: #11151c;
+  --muted: #565e6e;
+  --subtle: #626b7a;
+  --line: #dce1e9;
+  --blue-wash: #e9f1ff;
+  --shadow: 0 16px 50px #18203b12;
+  color-scheme: light;
+}

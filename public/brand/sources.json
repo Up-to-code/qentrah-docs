@@ -1,0 +1,63 @@
+[
+  {
+    "source": "https://qentrah.com/fonts/XVF_Variable-s.p.2_a5y-slrzff6.woff2",
+    "local": "/brand/geist.woff2",
+    "bytes": 69264
+  },
+  {
+    "source": "https://qentrah.com/fonts/GeistMono_Variable.p.42jdkyb02hb3d.woff2",
+    "local": "/brand/geist-mono.woff2",
+    "bytes": 71004
+  },
+  {
+    "source": "https://qentrah.com/qh/logo.svg",
+    "local": "/brand/qh-logo.svg",
+    "bytes": 299
+  },
+  {
+    "source": "https://qentrah.com/covers/artwork/qh-pixels-studio.png",
+    "local": "/artwork/qh-pixels-studio.webp",
+    "bytes": 38930,
+    "processing": "Compressed to WebP; artwork unchanged."
+  },
+  {
+    "source": "https://qentrah.com/covers/artwork/ocean-v4.png",
+    "local": "/artwork/ocean-v4.webp",
+    "bytes": 1843054,
+    "processing": "Compressed to WebP; artwork unchanged."
+  },
+  {
+    "source": "https://qentrah.com/",
+    "local": "src/components/Brand.jsx",
+    "note": "Original header mark; SVG path geometry preserved."
+  },
+  {
+    "source": "built-in ImageGen",
+    "local": "/artwork/blue-glass.webp",
+    "note": "Supporting abstract texture only. Prompt in docs/asset-prompts.md."
+  },
+  {
+    "source": "built-in ImageGen",
+    "local": "/artwork/qentrah-hero.webp",
+    "original": "docs/assets/qentrah-hero.png",
+    "note": "Generated supporting illustration; original Qentrah logo composited separately as SVG."
+  },
+  {
+    "source": "built-in ImageGen",
+    "local": "/artwork/documentation-sculpture.webp",
+    "original": "docs/assets/documentation-sculpture.png",
+    "note": "Generated supporting illustration; original Qentrah logo composited separately as SVG."
+  },
+  {
+    "source": "built-in ImageGen",
+    "local": "/artwork/creative-sculpture.webp",
+    "original": "docs/assets/creative-sculpture.png",
+    "note": "Generated supporting illustration; original Qentrah logo composited separately as SVG."
+  },
+  {
+    "source": "built-in ImageGen edit of generated hero",
+    "local": "/artwork/qentrah-hero-vite.webp",
+    "original": "docs/assets/qentrah-hero-vite.png",
+    "note": "Final Vite-like thin floating frames. Original brand SVG overlaid by React."
+  }
+]

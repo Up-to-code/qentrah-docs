@@ -1,0 +1,38 @@
+# Asset provenance
+
+Qentrah's logo geometry, product names, and product artwork are from the original public site, inspected on 2026-11-06. No identity asset was AI-redesigned. Sources and local paths are listed in `public/brand/sources.json`. The QH logo is copied from the official `/qh/logo.svg`. The QH Pixels card uses the official studio artwork, compressed to WebP without changing its content.
+
+The hero uses a generated transparent glass-and-metal render. The original Qentrah SVG is overlaid separately by `MotionScene.jsx`, preserving its geometry. CSS animates the complete artwork; the original product names and logos are never rendered or modified by the image model.
+
+## Generated supporting background
+
+Tool: built-in ImageGen. Final served asset: `public/artwork/blue-glass.webp`. The full-resolution PNG is saved in `docs/assets/blue-glass-source.png`.
+
+Prompt:
+
+> Use case: ads-marketing. Asset type: a wide abstract supporting background texture for Qentrah Docs, a black, white and electric-blue developer documentation site. Generate a 3:2 landscape premium macro photograph of a single folded midnight-black translucent glass ribbon, with vivid cobalt-blue light refracting through its edges, fine subtle grain, deep nearly black negative space around it, sharp architectural folds sweeping diagonally from lower left to upper right. Sparse, quiet, technical, restrained. Colors only black, white, cobalt and ice blue; absolutely no purple, magenta, pink or warm colors. No text, no letters, no logos, no symbols, no UI, no product mockups. This is only a decorative background; the exact original Qentrah logo will be placed separately as editable SVG and MUST NOT be invented or depicted in the image. The texture must look good behind white text in a website footer and clipped inside technical diagram panels.
+
+## Generated hero and feature asset set
+
+All images were made with the built-in ImageGen tool. The logo is not included in these images; the original Qentrah mark is composed separately by React. Original PNGs are kept alongside this document under `assets/`; runtime images are optimized WebP files in `public/artwork/`.
+
+- `qentrah-hero-vite.webp` — final transparent hero. Original: `docs/assets/qentrah-hero-vite.png`.
+- `documentation-sculpture.webp` — generated black document cards and blue bookmark. Original: `docs/assets/documentation-sculpture.png`.
+- `creative-sculpture.webp` — generated modular black, white, and blue cubes. Original: `docs/assets/creative-sculpture.png`.
+- `blue-glass.webp` — generated footer background. Original: `docs/assets/blue-glass-source.png`.
+
+### Hero generation prompt
+
+Create a premium, production-quality 3D hero illustration for Qentrah Docs, a black-and-white developer brand with electric cobalt-blue accent. Single cohesive isometric exploded architectural stack centered in a square composition: a substantial rounded square base made of brushed black anodized metal with polished cobalt-blue glass edges, hovering above the base two exceptionally thin rounded-square clear glass panes separated vertically, subtle optical reflections and blue edge light. Base top is clean unmarked charcoal metal with a generous flat blank center reserved for adding the existing brand logo later. Three tiny separate rounded square cobalt glass chips orbit around the lower corners. Perspective: orthographic isometric product photography, tilted plane, dramatic studio lighting, realistic reflections, fine material grain, physically grounded soft ambient shadows, quiet restrained premium industrial design. Not a wireframe, not a flat diagram, not an icon, not a UI screenshot. Deep blacks, pure white glints and BLUE only. Absolutely no purple, magenta, pink, cyan-green. No text, no characters, no numbers, no logos, no symbols, no watermarks. TRANSPARENT background with generous clean margins, complete object visible, not cropped. Render crisp beautiful materials with cinematic depth; should look like a real high-end glass and metal sculpture on a black developer-tool homepage.
+
+### Final Vite-style hero refinement prompt
+
+Edit this generated hero sculpture toward the airy, minimal floating-layer composition of Vite's website hero. Preserve the exact isometric camera, rounded square geometry, three satellite chips, black/blue/white palette, square composition and transparent background. Make the bottom black platform much thinner, like a refined slim laptop chassis (only 5% of its width in thickness), with an elegant cobalt-blue illuminated edge. The two upper floating layers should be thin open rounded-square glass FRAMES: their centers are completely open empty transparent holes, with only very fine glass rims 2–3 pixels wide at this image size. Remove the opaque silver sheet surfaces entirely. Increase the vertical separation between the two open frames and the base to make the composition tall and spacious. The central top surface of the slim black base must remain blank for the original Qentrah SVG logo that will be overlaid outside this image. Retain realistic premium black brushed material and glass refraction on the base and small chips. Beautiful soft electric-blue edge light, subtle grain, restrained polished 3D product illustration. No text, no logos, no symbols, no purple. Complete object visible, generous margins. Keep the blue light restrained. It should read as a light exploded diagram made from real glass and metal, with a slim base and two empty floating frame outlines.
+
+### Documentation illustration prompt
+
+Premium photorealistic 3D editorial asset for a developer documentation site, landscape 3:2 composition. Several thin matte-black physical document cards and a small translucent cobalt-blue glass bookmark arranged as an elegant ascending fan above a charcoal plinth. The cards have a few shallow debossed white line grooves suggesting paragraphs without any readable writing; one luminous electric-blue edge traces a clean path through the composition. Sculptural product photography, orthographic isometric view, expressive precise materials, subtle microtexture, soft realistic shadows, black studio background #101114 with plenty of negative space, blue and white rim light. Crisp high resolution, restrained and technically sophisticated. Pure black, white and cobalt BLUE palette. No purple, magenta or warm hues. No letters, no text, no logos, no icons, no actual UI, no brands. This is an abstract documentation illustration, not an invented branded product screenshot. Attractive premium art, not a wireframe or placeholder diagram.
+
+### Creative tools illustration prompt
+
+Create an exceptional 3D editorial illustration for creative developer tools, wide 3:2 landscape. A precise small architectural assembly of square black ceramic blocks, translucent electric cobalt-blue glass cubes and a few white porcelain cubes, forming an abstract stepped landscape on a matte-black isometric square tile. Several detached blue glass cubes hover just above the assembled structure, communicating creation, modularity and possibility. Product-photo realism, orthographic isometric camera, beautiful reflective blue caustics, fine soft grain, delicate white rim lighting, deep black studio background #101114. Sparse confident composition, premium physical sculpture and actual material depth; no flat icons, no diagram, no grid backdrop. Blue, black and white only; no purple, pink, orange or green. No text, no logos, no symbols, no product screenshots. Wide generous margins with all objects visible. It is decorative artwork for Qentrah creative tools; do not invent or depict the brand logo.
